@@ -1,0 +1,5 @@
+selector: js-app
+replicas: 3
+image: alexolink/js-prob:v1
+containerPort: 8080
+nodePort: 30007
