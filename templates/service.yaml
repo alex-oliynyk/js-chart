@@ -7,7 +7,7 @@ spec:
   selector:
     app: {{ .Values.selector }}
   ports:
-    - protocol: TCP
-      port: {{ .Values.containerPort }}
+    - protocol  : TCP
+      port      : {{ .Values.containerPort }}
       targetPort: {{ .Values.containerPort }}
-      nodePort: {{ .Values.nodePort }}
+      nodePort  : {{ .Values.nodePort }}

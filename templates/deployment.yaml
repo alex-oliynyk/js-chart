@@ -15,7 +15,7 @@ spec:
         app: {{ .Values.selector }}
     spec:
       containers:
-      - name: {{ .Values.selector }}-container
+      - name : {{ .Values.selector }}-container
         image: {{ .Values.image }}
         ports:
         - containerPort: {{ .Values.containerPort }}
